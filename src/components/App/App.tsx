@@ -59,6 +59,7 @@ export default function App() {
 
   const closeModal = () => {
     setModal(false);
+    console.log(modal);
     setSelectedImage(null);
   };
 
